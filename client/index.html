@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Чат приложение</title>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="chat-wrapper">
+    <div class="chat-header">Чат комната</div>
+    <div id="messagesList" class="chat-messages"></div>
+    <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Введите сообщение..." />
+        <button id="sendButton">Отправить</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
